@@ -1,0 +1,33 @@
+body {
+    background: #141d38;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+tr:nth-of-type(even) {
+    background-color: rgba(240, 238, 242, 0.1);
+}
+
+tr {
+    border: 1px solid;
+}
+
+td {
+    padding: 1.1rem;
+    border: 1px solid;
+    transition: ease-in-out 0.3s;
+}
+
+td:hover {
+    background-color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
